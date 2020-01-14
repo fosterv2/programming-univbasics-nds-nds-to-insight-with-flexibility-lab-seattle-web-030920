@@ -46,7 +46,7 @@ def movies_with_director_key(name, movies_collection)
   # by using the provided movie_with_director_name method
   movie_array = []
   movie_index = 0
-  while movie_index < movies_collection.legth do
+  while movie_index < movies_collection.length do
     movie_array << movie_with_director_name(name, movies_collection[movie_index])
     movie_index += 1
   end
